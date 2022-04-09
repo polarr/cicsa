@@ -10,13 +10,13 @@
 </script>
 
 <svelte:head>
-	<title>About MMA</title>
+	<title>Festival</title>
 </svelte:head>
 
 <section class="hero is-primary">
 	<div class="hero-body">
 		<p class="title">
-		About the MMA
+		Festival
 		</p>
 		<p class="subtitle">
 		Hero subtitle
