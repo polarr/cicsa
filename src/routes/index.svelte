@@ -14,8 +14,7 @@
 	<h1>
 		<div class="welcome">
 			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
+				<img src="http://en.mma99.com/wp-content/uploads/2021/02/cropped-logo1920-375a.jpg" alt="Welcome" />
 			</picture>
 		</div>
 

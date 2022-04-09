@@ -7,6 +7,8 @@
 	// (i.e. we came here from elsewhere in the app), use it
 	export const router = browser;
 	export const prerender = true;
+
+	const supports = ["Title Sponsors (Finance, Food, Real Estate industry)","Performance Sponsors (Groups or Individuals to perform in singing, dancing, etc.)", "Delicacies Sponsors (Ethnic food, family kitchen, drinks and more)", "Business Sponsors (Real Estates, Immigration, Insurance, Education, Outdoor sports)", "Culture Sponsors (Cultural heritage, geomancy, calligraphy)", "Farms and Gardens"];
 </script>
 
 <svelte:head>
@@ -16,38 +18,61 @@
 <section class="hero is-primary">
 	<div class="hero-body">
 		<p class="title">
-		Festival
+		2022 Chinese Festival
 		</p>
 		<p class="subtitle">
-		Hero subtitle
+		Cultural events, activities, and entertainment
 		</p>
 	</div>
 </section>
 <div class="content">
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
+	<div class="box">
+		<article class="message is-dark">
+			<div class="message-body">
+				Climate change is an issue that decides the features of this era, and we are now in this decisive moment.
+				<br /><br />
+				—— The United Nations
+			</div>
+		</article>
+		<p>
+			Society changes rapidly. The notions of achieving sustainable living by low-carbon, zero-plastic waste, and reduce-reuse-recycle are pressing matters. Another imminent issue is the negative impact of COVID-19 on children and teenagers and its long-term psychological effects.
+		</p>
+		<p>
+			This summer, Canadian Innovative Community Services Alliance (CICSA), a charity organization, will host the Chinese Festival at Mississauga Celebration Square. While showcasing Chinese culture, the event will primarily promote ways of green living and concern adolescents' physical and mental development. The Chinese Festival garnered support from the federal government of Canada, the provincial government of Ontario, and the Consulate General of China in Toronto. CICSA is also grateful for the encouragement and support from the City of Mississauga.
+		</p>
+		<p><strong>
+			Date: 9/17/2022
+			<br />
+			Location: Mississauga, Celebration Square One
+		</strong></p>
+	</div>
+	<div class="box" id="values">
+		<p class="title is-4">About the Festival</p>
+		<p>
+			In 2021, CICSA achieved its goal and donated to the Trillium Health Partners with support from the communities. In 2022, CICSA will continue to raise funds for Trillium Health Partners through various venues at the Chinese Festival.
+		</p>
+		<p>
+			No matter how the world changes, love is always the perpetual theme. The Chinese Festival will host charitable auctions at the event. The auctions will include but are not limited to crafts, art wares, and household items. We also anticipate artworks from different ethnic groups and products handmade by students.
 
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
+			The success of the 2022 Chinese Festival depends on the support from various communities. The CICSA Chinese Festival Committee hopes to receive support from
+		</p>
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
-	</p>
+		<ul>
+			{#each supports as support, i}
+				<li>{support}</li>
+			{/each}
+		</ul>
+		<p>
+			To closely follow the theme of this event, the Chinese Festival will have plenty of cultural events, sports activities, and entertainment - bicycle riding, buskers, children's playground, youth fitness, Chinese lantern riddles, and live performances. Let love sing aloud and comfort the soul with warmth. 
+		</p>
+		<p>CICSA acknowledged the outstanding support from the media in China and Canada. Hundreds of news outlets will make multiple perspective news reports on the Chinese Festival at the appointed time.</p>
+	</div>
 </div>
 
 <style>
 	.content {
 		width: 100%;
-		max-width: var(--column-width);
+		padding: 0 1rem;
 		margin: var(--column-margin-top) auto 0 auto;
 	}
 </style>

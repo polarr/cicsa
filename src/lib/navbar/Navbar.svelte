@@ -28,8 +28,8 @@
 		</a>
 
 		<div class="navbar-dropdown">
-			<a class="navbar-item" sveltekit:prefetch href="/about">
-				About
+			<a class="navbar-item" sveltekit:prefetch href="/about#mission">
+				Mission
 			</a>
 			<a class="navbar-item" sveltekit:prefetch href="/about#values">
 				Values
@@ -44,10 +44,6 @@
 	<a class="navbar-item" sveltekit:prefetch href="/festival">
 		Festival
 	</a>
-	<a class="navbar-item" sveltekit:prefetch href="/news">
-		News
-	</a>
-
 	<a class="navbar-item" sveltekit:prefetch href="/contact">
 		Contact
 	</a>

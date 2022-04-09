@@ -38,8 +38,8 @@
 
 <section class="hero is-primary">
 	<div class="hero-body">
-		<p class="title">About CISCA</p>
-		<p class="subtitle">Our Mission, Values, and FAQ</p>
+		<p class="title">Donate</p>
+		<p class="subtitle">Help CISCA achieve its mission</p>
 	</div>
 </section>
 <div class="content">
@@ -54,7 +54,7 @@
 		</p>
 	</div>
 	<div class="box" id="mission">
-		<h1>Vision & Mission</h1>
+		<h1>Our Vision & Mission</h1>
 		<p>
 			CICSA strives to be a productive agent to facilitate the establishing and sustaining of a
 			vibrant and strong Chinese community in the Peel Region.
@@ -67,7 +67,7 @@
 		</p>
 	</div>
 	<div class="box" id="values">
-		<h1>Values</h1>
+		<h1>Our Values</h1>
 		{#each values as value, i}
 			<p class="title is-4">{value.value}</p>
 			<ul><li>{value.description}</li></ul>
