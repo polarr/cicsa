@@ -17,7 +17,7 @@
 <section class="hero is-primary">
 	<div class="hero-body">
 		<p class="title">Donate</p>
-		<p class="subtitle">Help CISCA achieve its mission</p>
+		<p class="subtitle">Help CICSA achieve its mission</p>
 	</div>
 </section>
 <div class="content">
@@ -29,7 +29,7 @@
 		<p>
 			We accept donations through Interac E-Transfer to the email <a>info@mma99.com</a>
 			<br />
-			Thank you for supporting CISCA!
+			Thank you for supporting CICSA!
 		</p>
 	</div>
 </div>

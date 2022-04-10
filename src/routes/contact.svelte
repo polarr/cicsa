@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<title>Contact</title>
-	<meta name="description" content="Contact information for CISCA" />
+	<meta name="description" content="Contact information for CICSA" />
 </svelte:head>
 
 <section class="hero is-success">
@@ -27,7 +27,7 @@
 <div class="content">
 	<div class="box">
 		<p class = "title is-4">Email</p>
-		<p>Email us at <a href="mailto:cfestival@cisca.ca">cfestival@cisca.ca</a> if you have any questions or to share thoughts or concerns!</p>
+		<p>Email us at <a href="mailto:cfestival@cicsa.ca">cfestival@cicsa.ca</a> if you have any questions or to share thoughts or concerns!</p>
 	</div>
 </div>
 

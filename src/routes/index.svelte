@@ -56,7 +56,7 @@
 		<div class="tile is-vertical">
 			<div class="tile is-parent">
 				<article class="tile is-child notification is-info">
-					<p class="title">About CISCA</p>
+					<p class="title">About CICSA</p>
 					<div class="content">
 						CICSA is a registered Canadian not-for-profit charity organization. We offer social,
 						artistic, cultural, educational, health and well-being support projects to assist new
@@ -70,7 +70,7 @@
 			<div class="tile is-parent">
 				<article class="tile is-child notification is-warning">
 					<p class="title">Donate</p>
-					<p class="subtitle">Help CISCA achieve its mission</p>
+					<p class="subtitle">Help CICSA achieve its mission</p>
 					<div class="content">
 						As a non-for-profit organization, we can only continue to thrive with your help. Donations of any amount are appreciated. All donations we receive will be used to support the local community, and to allow us to host more cultural events in the future. Through donations, we are able to help more people, and achieve our mission of empowering the Chinese community in the Peel Region.
 						<br /><br />
@@ -83,7 +83,7 @@
 					<p class="title">Contact Us</p>
 					<p class="subtitle">We'd love to hear from you!</p>
 					<div class="content">
-						Don't hesitate to email us at <a href="mailto:cfestival@cisca.ca">cfestival@cisca.ca</a>
+						Don't hesitate to email us at <a href="mailto:cfestival@cicsa.ca">cfestival@cicsa.ca</a>
 						if any questions arise or to share your thoughts/concerns.
 					</div>
 				</article>
@@ -143,6 +143,12 @@
 			width: 512px;
 			padding: 1rem;
 			margin: 0 auto;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.tile.is-ancestor {
+			margin: 0 .5rem;
 		}
 	}
 </style>

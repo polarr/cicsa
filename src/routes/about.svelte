@@ -11,19 +11,19 @@
 	const values = [
 		{
 			value: "People Focus",
-			description: "Respecting the dignity and self-worth of all individuals and their holistic needs. Enabling individuals to successfully direct their own lives independently and interdependently."
+			description: "Respecting the dignity and self-worth of all individuals and recognizing their holistic needs. Enabling individuals to successfully direct their own lives independently and interdependently."
 		}, 
 		{
 			value: "Collaboration",
-			description: "Achieving success through working together with others in the spirit of equal and mutual respect basis."
+			description: "Achieving success through working together with others on a mutual respect basis."
 		}, 
 		{
 			value: "Volunteering",
-			description: "Appreciating that the voluntary contribution of individuals contributes to the success of the organization and the community. Treating volunteers with utmost respect and support will be available to facilitate volunteer work and growth."
+			description: "Appreciating that the voluntary contributions of individuals contributes to the success of the organization and the community as a whole. Treating volunteers with utmost respect and support to facilitate volunteer work and growth."
 		}, 
 		{
 			value: "Inclusivity",
-			description: "Recognizing the diversity in the community and amongst our members, service users and volunteers through the provision of culturally and linguistically appropriate service with the focus on the diversified Chinese community."
+			description: "Recognizing the diversity in the community and amongst our members, service users and volunteers. Providing culturally and linguistically appropriate service with a focus on the Chinese community."
 		}, 
 		{
 			value: "Responsibility and Effectiveness",
@@ -34,12 +34,12 @@
 
 <svelte:head>
 	<title>About</title>
-	<meta name="description" content="About CISCA and its Vision, Mission, and Values" />
+	<meta name="description" content="About CICSA and its Vision, Mission, and Values" />
 </svelte:head>
 
 <section class="hero is-info">
 	<div class="hero-body">
-		<p class="title">About CISCA</p>
+		<p class="title">About CICSA</p>
 		<p class="subtitle">Our Mission, Values, and FAQ</p>
 	</div>
 </section>

@@ -13,7 +13,7 @@
 
 <svelte:head>
 	<title>Chinese Festival</title>
-	<meta name="description" content="This summer, CISCA will host the Chinese Festival at Mississauga Celebration Square. The Chinese Festival will have plenty of cultural events, sports activities, and entertainment - bicycle riding, buskers, children's playground, youth fitness, Chinese lantern riddles, and live performances. While showcasing Chinese culture, the event will primarily promote ways of green living and concern adolescents' physical and mental development." />
+	<meta name="description" content="This summer, CICSA will host the Chinese Festival at Mississauga Celebration Square. The Chinese Festival will have plenty of cultural events, sports activities, and entertainment - bicycle riding, buskers, children's playground, youth fitness, Chinese lantern riddles, and live performances. While showcasing Chinese culture, the event will primarily promote ways of green living and concern adolescents' physical and mental development." />
 </svelte:head>
 
 <section class="hero is-primary">
@@ -79,7 +79,8 @@
 		<p>
 			To closely follow the theme of this event, the Chinese Festival will have plenty of cultural events, sports activities, and entertainment - bicycle riding, buskers, children's playground, youth fitness, Chinese lantern riddles, and live performances. Let love sing aloud and comfort the soul with warmth. 
 		</p>
-		<p>CICSA acknowledged the outstanding support from the media in China and Canada. Hundreds of news outlets will make multiple perspective news reports on the Chinese Festival at the appointed time.</p>
+		<p>CICSA acknowledges the outstanding support from media in China and Canada. Hundreds of new outlets will make multiple perspective news reports on the Chinese Festival at the appointed date.
+		</p>
 	</div>
 </div>
 

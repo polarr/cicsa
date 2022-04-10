@@ -13,7 +13,7 @@
 <footer class="footer">
 	<div class="content has-text-centered">
 		<p>
-			Copyright © 2022-present CISCA
+			Copyright © 2022-present CICSA
 		</p>
 	</div>
 </footer>

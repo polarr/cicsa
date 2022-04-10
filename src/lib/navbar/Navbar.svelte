@@ -24,7 +24,7 @@
 
 	<div class="navbar-item has-dropdown is-hoverable">
 		<a class="navbar-link" sveltekit:prefetch href="/about"  on:click = {() => {navActive = !navActive}}>
-			About CISCA
+			About CICSA
 		</a>
 
 		<div class="navbar-dropdown">
