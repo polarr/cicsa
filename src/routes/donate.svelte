@@ -7,33 +7,11 @@
 	// (i.e. we came here from elsewhere in the app), use it
 	export const router = browser;
 	export const prerender = true;
-
-	const values = [
-		{
-			value: "People Focus",
-			description: "Respecting the dignity and self-worth of all individuals and their holistic needs. Enabling individuals to successfully direct their own lives independently and interdependently."
-		}, 
-		{
-			value: "Collaboration",
-			description: "Achieving success through working together with others in the spirit of equal and mutual respect basis."
-		}, 
-		{
-			value: "Volunteering",
-			description: "Appreciating that the voluntary contribution of individuals contributes to the success of the organization and the community. Treating volunteers with utmost respect and support will be available to facilitate volunteer work and growth."
-		}, 
-		{
-			value: "Inclusivity",
-			description: "Recognizing the diversity in the community and amongst our members, service users and volunteers through the provision of culturally and linguistically appropriate service with the focus on the diversified Chinese community."
-		}, 
-		{
-			value: "Responsibility and Effectiveness",
-			description: "Ensuring the organization will be managed and resources will be utilized in a responsible and effective manner." 
-		}
-	];
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Donate</title>
+	<meta name="description" content="As a non-for-profit organization, we can only continue to thrive with your help. Donations of any amount are appreciated. All donations we receive will be used to support the local community, and to allow us to host more cultural events in the future. Through donations, we are able to help more people, and achieve our mission of empowering the Chinese community in the Peel Region." />
 </svelte:head>
 
 <section class="hero is-primary">
@@ -44,37 +22,15 @@
 </section>
 <div class="content">
 	<div class="box">
-		<h1>About Us</h1>
 		<p>
-			CICSA, formerly known as the Mississauga Mandarin Association (MMA), stands for Canadian
-			Innovative Community Services Alliance, and is a registered Canadian not-for-profit charity
-			(BN: 863170320RR0001) organization. CICSA offers social, artistic, cultural, educational,
-			health and well-being support projects to assist new immigrants in integrating into Canada and
-			achieving high quality of life within the community.
+			As a non-for-profit organization, we can only continue to thrive with your help. Donations of any amount are appreciated. All donations we receive will be used to support the local community, and to allow us to host more cultural events in the future. Currently, CICSA is focused on raising funds for Trillium Health Partners, a series of hospitals located in Mississauga. Through donations, we are able to help more people, and achieve our mission of empowering the Chinese community in the Peel Region.
 		</p>
-	</div>
-	<div class="box" id="mission">
-		<h1>Our Vision & Mission</h1>
+
 		<p>
-			CICSA strives to be a productive agent to facilitate the establishing and sustaining of a
-			vibrant and strong Chinese community in the Peel Region.
+			We accept donations through Interac E-Transfer to the email <a>info@mma99.com</a>
+			<br />
+			Thank you for supporting CISCA!
 		</p>
-		<p>
-			Our mission is to empower Chinese people to settle and integrate in the Peel Region and to
-			live a quality and enriched life in the community by providing a platform for civic engagement
-			and participation and delivering a wide range of social, arts, cultural, education, health,
-			and support programs.
-		</p>
-	</div>
-	<div class="box" id="values">
-		<h1>Our Values</h1>
-		{#each values as value, i}
-			<p class="title is-4">{value.value}</p>
-			<ul><li>{value.description}</li></ul>
-		{/each}
-	</div>
-	<div class="box" id="faq">
-		<h1>FAQ</h1>
 	</div>
 </div>
 
@@ -82,6 +38,7 @@
 	.content {
 		width: 100%;
 		padding: 0 1rem;
+		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
 	}
 </style>

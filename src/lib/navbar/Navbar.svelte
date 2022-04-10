@@ -1,15 +1,15 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	let navActive = false;
+	let navActive: boolean = false;
 </script>
 
-<nav class={`navbar is-fixed-top ` + (navActive ? "is-active":"")} role="navigation" aria-label="main navigation" style="margin-bottom: height;">
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" style="margin-bottom: height;">
 <div class="navbar-brand">
-	<a class="navbar-item" href="https://bulma.io">
-	<img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-	</a>
-	<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" on:click = {() => {navActive = !navActive}}>
+	<div class="navbar-item">
+	<img src="/logo.png">
+	</div>
+	<a role="button" class={"navbar-burger "+ (navActive ? "is-active":"")} aria-label="menu" aria-expanded="false" on:click = {() => {navActive = !navActive}}>
 		<span aria-hidden="true"></span>
 		<span aria-hidden="true"></span>
 		<span aria-hidden="true"></span>
@@ -18,33 +18,33 @@
 
 <div class={"navbar-menu " + (navActive ? "is-active":"")}>
 	<div class="navbar-start">
-	<a class="navbar-item" sveltekit:prefetch href="/">
+	<a class="navbar-item" sveltekit:prefetch href="/"  on:click = {() => {navActive = !navActive}}>
 		Home
 	</a>
 
 	<div class="navbar-item has-dropdown is-hoverable">
-		<a class="navbar-link" sveltekit:prefetch href="/about">
+		<a class="navbar-link" sveltekit:prefetch href="/about"  on:click = {() => {navActive = !navActive}}>
 			About CISCA
 		</a>
 
 		<div class="navbar-dropdown">
-			<a class="navbar-item" sveltekit:prefetch href="/about#mission">
+			<a class="navbar-item" sveltekit:prefetch href="/about#mission"  on:click = {() => {navActive = !navActive}}>
 				Mission
 			</a>
-			<a class="navbar-item" sveltekit:prefetch href="/about#values">
+			<a class="navbar-item" sveltekit:prefetch href="/about#values"  on:click = {() => {navActive = !navActive}}>
 				Values
 			</a>
 			<hr class="navbar-divider">
-			<a class="navbar-item" sveltekit:prefetch href="/about#faq">
+			<a class="navbar-item" sveltekit:prefetch href="/about#faq"  on:click = {() => {navActive = !navActive}}>
 				FAQ
 			</a>
 		</div>
 	</div>
 
-	<a class="navbar-item" sveltekit:prefetch href="/festival">
-		Festival
+	<a class="navbar-item" sveltekit:prefetch href="/festival"  on:click = {() => {navActive = !navActive}}>
+		Chinese Festival
 	</a>
-	<a class="navbar-item" sveltekit:prefetch href="/contact">
+	<a class="navbar-item" sveltekit:prefetch href="/contact"  on:click = {() => {navActive = !navActive}}>
 		Contact
 	</a>
 	</div>
@@ -52,7 +52,7 @@
 	<div class="navbar-end">
 		<div class="navbar-item">
 			<div class="buttons">
-			<a class="button is-primary" sveltekit:prefetch href="/donate">
+			<a class="button is-primary" sveltekit:prefetch href="/donate"  on:click = {() => {navActive = !navActive}}>
 				<strong>Donate</strong>
 			</a>
 			</div>
@@ -62,5 +62,4 @@
 </nav>
 
 <style>
-
 </style>

@@ -34,9 +34,10 @@
 
 <svelte:head>
 	<title>About</title>
+	<meta name="description" content="About CISCA and its Vision, Mission, and Values" />
 </svelte:head>
 
-<section class="hero is-primary">
+<section class="hero is-info">
 	<div class="hero-body">
 		<p class="title">About CISCA</p>
 		<p class="subtitle">Our Mission, Values, and FAQ</p>
@@ -45,26 +46,34 @@
 <div class="content">
 	<div class="box">
 		<h1>About Us</h1>
-		<p>
-			CICSA, formerly known as the Mississauga Mandarin Association (MMA), stands for Canadian
-			Innovative Community Services Alliance, and is a registered Canadian not-for-profit charity
-			(BN: 863170320RR0001) organization. CICSA offers social, artistic, cultural, educational,
-			health and well-being support projects to assist new immigrants in integrating into Canada and
-			achieving high quality of life within the community.
-		</p>
+		<div class="row-right">
+			<p>
+				CICSA, formerly known as the Mississauga Mandarin Association (MMA), stands for Canadian
+				Innovative Community Services Alliance, and is a registered Canadian not-for-profit charity
+				(BN: 863170320RR0001) organization. CICSA offers social, artistic, cultural, educational,
+				health and well-being support projects to assist new immigrants in integrating into Canada and
+				achieving high quality of life within the community.
+			</p>
+			<img src="/charity-heart.png" alt="Charity Heart" />
+		</div>
 	</div>
 	<div class="box" id="mission">
 		<h1>Vision & Mission</h1>
-		<p>
-			CICSA strives to be a productive agent to facilitate the establishing and sustaining of a
-			vibrant and strong Chinese community in the Peel Region.
-		</p>
-		<p>
-			Our mission is to empower Chinese people to settle and integrate in the Peel Region and to
-			live a quality and enriched life in the community by providing a platform for civic engagement
-			and participation and delivering a wide range of social, arts, cultural, education, health,
-			and support programs.
-		</p>
+		<div class="row-right">
+			<div>
+				<p>
+					CICSA strives to be a productive agent to facilitate the establishing and sustaining of a
+					vibrant and strong Chinese community in the Peel Region.
+				</p>
+				<p>
+					Our mission is to empower Chinese people to settle and integrate in the Peel Region and to
+					live a quality and enriched life in the community by providing a platform for civic engagement
+					and participation and delivering a wide range of social, arts, cultural, education, health,
+					and support programs.
+				</p>
+			</div>
+			<img src="/hands-heart.jpg" alt="Hands Heart" />
+		</div>
 	</div>
 	<div class="box" id="values">
 		<h1>Values</h1>
@@ -82,6 +91,25 @@
 	.content {
 		width: 100%;
 		padding: 0 1rem;
+		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
+	}
+
+	img {
+		height: 128px;
+		padding: 1rem;
+	}
+
+	@media (max-width: 720px) {
+		.row-right {
+			flex-direction: column;
+		}
+
+		img {
+			height: initial;
+			width: 384px;
+			padding: 1rem;
+			margin: 0 auto;
+		}
 	}
 </style>

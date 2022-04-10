@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Navbar from '$lib/navbar/Navbar.svelte';
 	import '../app.css';
+
 </script>
 
 <Navbar />
@@ -9,8 +10,12 @@
 	<slot />
 </main>
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+<footer class="footer">
+	<div class="content has-text-centered">
+		<p>
+			Copyright © 2022-present CISCA
+		</p>
+	</div>
 </footer>
 
 <style>
@@ -19,9 +24,9 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		margin: 0 auto;
+		margin:  3.25em auto;
 		box-sizing: border-box;
-		margin-top: 3.25rem;
+		min-height: calc(100vh - 6.5rem);
 	}
 
 	footer {
