@@ -40,6 +40,8 @@
 							and live performances. Let love sing aloud and comfort the soul with warmth.
 							<br /><br />
 							<a href="/festival">Learn more</a>
+							<br />
+							<a href="https://forms.gle/D85ifeyFyKDfJYmk8"><strong>Volunteer to help out the festival here!</strong></a>
 						</div>
 						<img src="/square-one.jpg" alt="Square One" />
 					</div>
