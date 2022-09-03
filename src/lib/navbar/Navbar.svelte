@@ -41,9 +41,16 @@
 		</div>
 	</div>
 
-	<a class="navbar-item" sveltekit:prefetch href="/festival"  on:click = {() => {navActive = !navActive}}>
-		Chinese Festival
-	</a>
+	<div class="navbar-item has-dropdown is-hoverable" on:click = {() => {navActive = !navActive}}>
+		<a class="navbar-link" sveltekit:prefetch href="/festival" on:click = {() => {navActive = !navActive}}>
+			Chinese Festival
+		</a>
+		<div class="navbar-dropdown">
+			<a class="navbar-item" sveltekit:prefetch href="/festival/leaders"  on:click = {() => {navActive = !navActive}}>
+				Department Leaders
+			</a>
+		</div>
+	</div>
 	<a class="navbar-item" sveltekit:prefetch href="/contact"  on:click = {() => {navActive = !navActive}}>
 		Contact
 	</a>
