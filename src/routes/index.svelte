@@ -4,17 +4,17 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="CICSA is a registered Canadian not-for-profit charity organization. We offer social, artistic, cultural, educational, health and well-being support projects to assist new immigrants in integrating into Canada and achieving high quality of life within the community." />
+	<meta
+		name="description"
+		content="CICSA is a registered Canadian not-for-profit charity organization. We offer social, artistic, cultural, educational, health and well-being support projects to assist new immigrants in integrating into Canada and achieving high quality of life within the community."
+	/>
 </svelte:head>
 
 <section>
 	<section class="hero is-primary">
 		<div class="hero-body">
 			<div class="center-banner">
-				<img
-					src="/banner.jpeg"
-					alt="logo"
-				/>
+				<img src="/banner.jpeg" alt="logo" />
 			</div>
 		</div>
 	</section>
@@ -27,21 +27,25 @@
 					<p class="subtitle">Cultural events, activities, and entertainment</p>
 					<div class="row-right">
 						<div class="content">
-							This summer, Canadian Innovative Community Services Alliance (CICSA), a charity
-							organization, will host the Chinese Festival at Mississauga Celebration Square. While
-							showcasing Chinese culture, the event will primarily promote ways of green living and
-							concern adolescents' physical and mental development.
-							<br /><br />
-							In 2021, CICSA achieved its goal and donated to the Trillium Health Partners with support
-							from the communities. In 2022, CICSA will continue to raise funds for Trillium Health Partners
-							through various venues at the Chinese Festival. To closely follow the theme of this event,
-							the Chinese Festival will have plenty of cultural events, sports activities, and entertainment
-							- bicycle riding, buskers, children's playground, youth fitness, Chinese lantern riddles,
-							and live performances. Let love sing aloud and comfort the soul with warmth.
+							This year, the CICSA (Canadian Innovative Community Service Alliance) will be hosting
+							a Chinese Festival on September 17, 2022, which will take place in Mississauga
+							Celebration Square (300 City Centre Drive, Mississauga) from 11:00am-9:30pm. The
+							primary themes of the festival will be climate change, youth mental health, and
+							promotion of intangible Chinese culture. At the festival venue, there will be free
+							milk tea, TCM treatment, a unique typography experience, and high-quality on-stage
+							performances. The festival will raise funds for our partner: Trillium Health. 
+							<br /> <br />
+							There will be 12 sections/types of booths in this charitable festival - stage, alcohol,
+							business, food, mental health recovery and sport, pet adoption, hand-made craft,
+							nursery garden/organic agriculture, education, children's entertainment, mind yoga,
+							poem, and intangible Chinese Cultural Heritage. The festival, which will have an
+							expected turnout of over 10,000 individuals, has received donations and support from
+							many different communities, sponsors, and individuals.
 							<br /><br />
 							<a href="/festival">Learn more</a>
 							<br />
-							<a href="https://forms.gle/D85ifeyFyKDfJYmk8"><strong>Volunteer to help out the festival here!</strong></a>
+							<strong><a href="/festival/attractions">See all the events and attractions we have to offer!</a></strong>
+
 						</div>
 						<img src="/square-one.jpg" alt="Square One" />
 					</div>
@@ -74,7 +78,11 @@
 					<p class="title">Donate</p>
 					<p class="subtitle">Help CICSA achieve its mission</p>
 					<div class="content">
-						As a non-for-profit organization, we can only continue to thrive with your help. Donations of any amount are appreciated. All donations we receive will be used to support the local community, and to allow us to host more cultural events in the future. Through donations, we are able to help more people, and achieve our mission of empowering the Chinese community in the Peel Region.
+						As a non-for-profit organization, we can only continue to thrive with your help.
+						Donations of any amount are appreciated. All donations we receive will be used to
+						support the local community, and to allow us to host more cultural events in the future.
+						Through donations, we are able to help more people, and achieve our mission of
+						empowering the Chinese community in the Peel Region.
 						<br /><br />
 						<a href="/donate">Donate</a>
 					</div>
@@ -111,11 +119,9 @@
 	.hero {
 		background-color: #fff;
 		margin-bottom: 3.25rem;
-		
 	}
 
 	.hero-body {
-		
 		img {
 			width: clamp(0px, 30%, 480px);
 			display: block;
@@ -150,7 +156,7 @@
 
 	@media (max-width: 768px) {
 		.tile.is-ancestor {
-			margin: 0 .5rem;
+			margin: 0 0.5rem;
 		}
 	}
 </style>

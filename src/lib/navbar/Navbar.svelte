@@ -46,6 +46,9 @@
 			Chinese Festival
 		</a>
 		<div class="navbar-dropdown">
+			<a class="navbar-item" sveltekit:prefetch href="/festival/attractions"  on:click = {() => {navActive = !navActive}}>
+				Attractions
+			</a>
 			<a class="navbar-item" sveltekit:prefetch href="/festival/leaders"  on:click = {() => {navActive = !navActive}}>
 				Department Leaders
 			</a>

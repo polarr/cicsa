@@ -70,7 +70,7 @@
 				Location: Mississauga, Celebration Square One
 				<br />
 				<br />
-				<a href="https://forms.gle/D85ifeyFyKDfJYmk8">Volunteer to help out the festival here!</a>
+				<a href="/festival/attractions">See all the events and attractions we have to offer!</a>
 			</strong>
 		</p>
 	</div>
@@ -114,10 +114,7 @@
 			date.
 		</p>
 		<p>
-			You can help too! <strong
-				><a href="https://forms.gle/D85ifeyFyKDfJYmk8">Volunteer to help out the festival here</a
-				></strong
-			>
+			<strong><a href="/festival/attractions">See all the events and attractions we have to offer!</a></strong>
 		</p>
 	</div>
 </div>
