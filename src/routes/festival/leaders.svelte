@@ -39,7 +39,7 @@
 			<div>
 				<h5>Tom Yang (President)</h5>
 				<p>
-					Tom Yang, the project leader of the Chinese Festival, is also a competitive table tennis
+					Tom Yang, the volunteer leader of the Chinese Festival, is also a competitive table tennis
 					player. Recently, Tom Yang became the gold medalist in the Ontario Team Championship! In
 					this Chinese Festival, he will be in charge of leading AIM and managing the festival
 					departments to ensure the success of the Chinese Festival. He would host a meeting
@@ -49,7 +49,7 @@
 				</p>
 				<article class="message is-primary">
 					<div class="message-body">
-						I am very proud to be the leader of this project. I believe that all of us will
+						I am very proud to be the volunteer leader of this project. I believe that all of us will
 						collaborate at our best to host this festival. Everyone is important because the success
 						of the festival will come with the contribution from each participant and volunteer. Not
 						only will the Chinese Festival promote Chinese culture, but it also advocates certain
